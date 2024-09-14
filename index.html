@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <!-- wrapper Strat -->
+    <div class="wrapper">
+        <!-- Outer start -->
+        <div class="outer">
+            <!-- nav Start -->
+            <div class="nav">
+                <input type="text" name="search bar "  placeholder=" Enter City Name">
+                <button onclick="weather()">
+                    <img src="img/search.png" alt="search button" id="icon" />
+                </button>
+
+            </div>
+            <!-- nav end -->
+            <div class="body">
+                <!-- Image part start -->
+                <div id="image">
+                    <img src="img/search.png" alt="weather" id="weather">
+                </div>
+                <!-- image part end -->
+                <!-- Degree Part Start -->
+                <div id="degree">
+                Temp
+                </div>
+                <!-- Degree Part End -->
+                <!-- city part Start  -->
+                <div id="city">
+                    City Name
+                </div>
+                <!-- city part end  -->
+
+            </div>
+            <!-- Body end -->
+            <!-- footer stART  -->
+            <div id="foot">
+                <!-- Humidity -->
+                <div id="humidity">
+                    <div id="hicone">
+                        <img src="img/humidity.png" alt="" id="h1">
+                    </div>
+                    <div id="hvalue">
+                     <p class="numb" id="numb1"> --</p>
+                      <p class="word">Humidity</p>
+                    </div>
+                </div>
+                <!-- humidy end -->
+
+                <div id="wind">
+                    <div id="wicone">
+                        <img src="img/wind.png" alt="" id="w1">
+                    </div>
+                    <div id="wvalue"> 
+                         <p class="numb" id="numb2">-- km/h</p>
+                       <p class="word">Wind Speed</p>
+                       
+                    </div>
+                </div>
+            </div>
+            <!-- footer end  -->
+
+
+
+        </div>
+        <!-- Outer End -->
+    </div>
+    <!-- wrapper End -->
+    <!-- java scrip -->
+    <script src="JS/index.js"></script>
+</body>
+
+</html>

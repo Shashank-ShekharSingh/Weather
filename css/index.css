@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.outer{
+    width: 500px;
+    height: 600px;
+    /* border: 2px solid black; */
+    border-radius: 25px;
+    margin: 40px auto;
+    background: linear-gradient(145deg,#05f6b8,#585a8c);
+}
+div.nav{
+    width: 100%;
+    height: 100px;
+    padding-top: 30px;
+    padding-left: 100px;
+    display: block;
+    justify-content: space-around;
+}
+.nav>input{
+    width: 250px;
+    height:40px ;
+    /* margin-left: 70px; */
+    border-radius: 30px; 
+    padding-left: 15px;
+    font-size: 24px;
+}
+.nav>input:focus{
+    
+}
+button{
+   width: 45px;
+   height: 45px;
+   margin-left: 20px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+}
+
+#icon{
+    width: 20px;
+    height: 20px;
+}
+.body{
+    height:320px ;
+     /* border: 1px solid black;  */
+}
+#image{
+    /* border: 1px solid black; */
+     padding-left: 166px;
+}
+ #weather{
+    /* border: 1px solid black; */
+    width: 150px;
+} 
+#degree{
+    /* border: 1px solid black; */
+    font-size: 60px;
+    padding-left:180px;
+    margin-top: 10px;
+    color: white;
+}
+#city{
+    /* border: 1px solid black; */
+    font-size: 40px;
+    padding-left:175px;
+    margin-top: 10px;
+    color: white;
+}
+#foot{
+    margin-top: 20px;
+    /* border: 1px solid pink; */
+    display: flex;   
+    justify-content: space-around;
+    color: white;
+}
+#humidity{
+    width: 50%;
+    display: flex;
+    height: 100%;
+    padding-left: 50px;
+    /* border: 1px solid pink; */
+    
+}
+/* #hicone{
+
+} */
+#h1{
+    padding-top:8px;
+    width: 50px;
+    height: 40px;
+    padding-right: 6px;
+}
+/* #hvalue{
+
+} */
+#wind{
+    /* width: 50%; */
+    display: flex;
+    padding-right: 50px;
+    padding-left: 10px;
+     /* border: 1px solid black;  */
+}
+ #wicone{
+    /* border: 1px solid black;  */
+   margin-right: 6px;
+  
+}
+#wvalue{
+    padding-right: 10px;
+     /* border: 1px solid black;  */
+}
+#hv{
+    
+}
+#hu{
+    
+} 
+#w1{
+    padding-top:8px;
+    width: 50px;
+    height: 40px;
+   
+}
+/* #wv{
+
+}
+#wi{
+
+} */
+p.numb{
+    font-size: 24px;
+}
